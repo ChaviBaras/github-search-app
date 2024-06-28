@@ -1,0 +1,114 @@
+h1 {
+    color: #369;
+    font-family: "Helvetica Neue";
+    font-size: 250%;
+  }
+  .img-thumbnail
+  {
+    max-width: 40%;
+  }
+  .panel
+{
+margin-top: 15%;
+}
+.bookmark{
+  margin: 7px 0 0 19px;
+  width: 50%;
+}
+
+.git_url{
+  padding-left: 10%;
+}
+
+header{
+  display: grid;
+  place-items: center;
+  margin-bottom: 3rem;
+}
+
+header h2{
+  font-size: 2rem;
+  text-align: center;
+}
+
+header h5{
+  color:#64ffda
+}
+
+.filter{
+  margin-top: 3rem;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  text-align: left;
+  border-radius: 0.2rem;
+  min-height: 300px;
+  box-shadow: 7px -7px 4px grey,
+              -7px -7px 4px grey;
+  transition:200ms ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.wrapper:hover .repo{
+  color:#055a46;
+}
+
+.header-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.project-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.info{
+  min-height: 40%;
+}
+
+.stats{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.stat-one{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.repo{
+  color:#c6d1f1;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  transition: 180ms ease;
+}
+
+.footer{
+  align-self: flex-start;
+}
+
+.footer > span{
+  font-family: 'Fira Mono', monospace;
+  font-size: 0.8rem;
+  color:#919cba;
+}
